@@ -12,6 +12,22 @@ section.task-list {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    .column{
+      position: relative;
+    }
+
+    .errorColumn{
+      position: relative;
+      top: 12px;
+    }
+
+    .error {
+      position: relative;
+      color: red;
+      left: 5px;
+
+    }
     
     h2 {
       color: var(--text-title);
